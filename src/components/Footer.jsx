@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
+
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0, behavior: 'auto'});
+      }, []);
 
     return (
         <>
@@ -11,16 +15,10 @@ export default function Footer() {
             
                 <ul>
 
-                    <Link to="/" className="footer-links"><li>Home</li></Link>
-                    <Link to="/product" className="footer-links"><li>Product</li></Link>
-                    <Link to="/support" className="footer-links"><li>Support</li></Link>
-                    <Link to="/pricing" className="footer-links"><li>Pricing</li></Link>
-                    <Link to="/features" className="footer-links"><li>Features</li></Link>
-
-                    {/* <Link to="/" 
+                    <Link to="/" 
                         className="footer-links"
                         onClick={() => {
-                            window.scroll({
+                            window.scrollTo({
                                 top: 0, 
                                 behavior: auto})
                         }}><li>Home</li>
@@ -29,7 +27,7 @@ export default function Footer() {
                         <Link to="/product" 
                         className="footer-links"
                         onClick={() => {
-                            window.scroll({
+                            window.scrollTo({
                                 top: 0, 
                                 behavior: auto})
                         }}><li>Product</li>
@@ -38,7 +36,7 @@ export default function Footer() {
                         <Link to="/support" 
                         className="footer-links"
                         onClick={() => {
-                            window.scroll({
+                            window.scrollTo({
                                 top: 0, 
                                 behavior: auto})
                         }}><li>Support</li>
@@ -47,7 +45,7 @@ export default function Footer() {
                         <Link to="/pricing" 
                         className="footer-links"
                         onClick={() => {
-                            window.scroll({
+                            window.scrollTo({
                                 top: 0, 
                                 behavior: auto})
                         }}><li>Pricing</li>
@@ -56,11 +54,11 @@ export default function Footer() {
                         <Link to="/features" 
                         className="footer-links"
                         onClick={() => {
-                            window.scroll({
+                            window.scrollTo({
                                 top: 0, 
                                 behavior: auto})
                         }}><li>Features</li>
-                        </Link> */}
+                        </Link>
 
         
                 </ul>
