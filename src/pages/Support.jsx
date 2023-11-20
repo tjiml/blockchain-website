@@ -1,6 +1,8 @@
-import React, { useState } from "react";
-import Navbar2 from "../components/Navbar2";
+import React, { useState, useEffect } from "react";
+import Navbar from "../components/Navbar";
 import References from "../components/References";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 export default function Support() {
 
@@ -89,11 +91,15 @@ export default function Support() {
             }
     }
 
+    useEffect(() => {
+        AOS.init({duration: 3000})
+    }, [])
+
 
     return (
         <>
         <div className="support-container">
-        <Navbar2 />
+        <Navbar />
 
             <div className="contact-us-title text-center">
                 <h1>Contact Us</h1>
@@ -101,7 +107,7 @@ export default function Support() {
                 <h4>Learn about our products and services, send a media inquiry, and more.</h4>
             </div>
 
-            <div className="support-cards-container">
+            <div className="support-cards-container" data-aos="fade-in">
 
                 <div className="support-card-1" onClick={openModule1}>
                     <h5>HR/People Operations</h5>

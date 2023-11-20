@@ -1,6 +1,8 @@
-import React, { useState } from "react";
-import Navbar2 from "../components/Navbar2";
+import React, { useState, useEffect } from "react";
+import Navbar from "../components/Navbar";
 import PriceAddOns from "../components/PriceAddOns";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 export default function Pricing() {
 
@@ -20,10 +22,14 @@ export default function Pricing() {
         document.querySelector('.monthly-button').style.border = 'none';
     }
 
+    useEffect(() => {
+        AOS.init({duration: 3000})
+    }, [])
+
 
     return (
         <>
-        <Navbar2 />
+        <Navbar />
         <div className="pricing-container">
 
             <div className="pricing-title">
@@ -37,7 +43,7 @@ export default function Pricing() {
 
 
             {price ? (
-                <div className="price-options-container">
+                <div className="price-options-container" data-aos="fade-in">
 
                 <div className="card-1">
                     <h1>7 Day Free Trial</h1>
@@ -46,10 +52,12 @@ export default function Pricing() {
                     <button>Join For free</button>
                     <div className="option-1-info">
                         <ul>
-                            <li>Unlimited public/private repositories</li>
-                            <li>Automatic version updates</li>
-                            <li>500 MB packages storage</li>
+                            <li>Organization and Team Management</li>
+                            <li>Automatic Version Updates</li>
+                            <li>24/7 IT Support</li>
                             <li>Community support</li>
+                            <li className="empty-space">.</li>
+                            <li className="empty-space">.</li>
                         </ul>
                     </div>
                 </div>
@@ -63,9 +71,10 @@ export default function Pricing() {
                         <ul>
                             <li>Everything included in Free plus...</li>
                             <li>Protected Branches</li>
-                            <li>Multiple reviewers in pull requests</li>
-                            <li>2 GB packages storage</li>
-                            <li>Web based support</li>
+                            <li>Audit Logs</li>
+                            <li>Invoice Billing</li>
+                            <li>Web Based Support</li>
+                            <li>Information Security Support</li>
                         </ul>
                     </div>
                 </div>
@@ -81,10 +90,12 @@ export default function Pricing() {
                     <button>Join For free</button>
                     <div className="option-1-info">
                         <ul>
-                            <li>Unlimited public/private repositories</li>
-                            <li>Automatic version updates</li>
-                            <li>500 MB packages storage</li>
+                            <li>Organization and Team Management</li>
+                            <li>Automatic Version Updates</li>
+                            <li>24/7 IT Support</li>
                             <li>Community support</li>
+                            <li className="empty-space">.</li>
+                            <li className="empty-space">.</li>
                         </ul>
                     </div>
                 </div>
@@ -98,9 +109,10 @@ export default function Pricing() {
                         <ul>
                             <li>Everything included in Free plus...</li>
                             <li>Protected Branches</li>
-                            <li>Multiple reviewers in pull requests</li>
-                            <li>2 GB packages storage</li>
-                            <li>Web based support</li>
+                            <li>Audit Logs</li>
+                            <li>Invoice Billing</li>
+                            <li>Web Based Support</li>
+                            <li>Information Security Support</li>
                         </ul>
                     </div>
                 </div>

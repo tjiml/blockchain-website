@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 export default function HomepageContent() {
 
     useEffect(() => {
-        AOS.init({duration: 2000})
+        AOS.init({duration: 2500})
     }, [])
 
 
@@ -13,7 +13,7 @@ export default function HomepageContent() {
         <>
         <div className="content-container">
 
-            <div className="container-1" data-aos="fade-down">
+            <div className="container-1" data-aos="fade-up">
                 <h1>Blockchain</h1>
                 <ul>
                     <li className="list-inline-item"><i className="bi bi-bar-chart"></i></li>
@@ -26,10 +26,10 @@ export default function HomepageContent() {
 
             <section className="container-2" data-aos="fade-up">
                 <h1>What Is Blockchain Technology?</h1>
-                <p>Blockchain is a distributed and decentralized database or digital ledger technology with the ability to securely share and record transactions across a network of computers. It can help make data in different industries to be immutable, this means it has the inability to be altered. Each set of transactions (also known as a block), is linked to the previous transaction or block. This forms a continuous chain of blocks. Once a block is added to the blockchain, it is extremely difficult to alter any information within it. </p>
+                <p>Blockchain is a record-keeping system that secures records, sensitive information and links transactions. The decentralized nature of blockchain enhances security, transparency, and trust in data transactions across a network - it is immutable to hacks and unauthorized access.</p>
             </section>
 
-            <div className="container-1" data-aos="fade-down">
+            <div className="container-1" data-aos="fade-up">
                 <h1>Healthcare Analytics</h1>
                 <ul>
                     <li className="list-inline-item"><i className="bi bi-sliders"></i></li>
@@ -42,7 +42,7 @@ export default function HomepageContent() {
 
             <section className="container-2" data-aos="fade-up">
                 <h1>What Is Healthcare Analytics?</h1>
-                <p>Healthcare analytics is an advanced analytics tool that uses healthcare data in order to identify patterns or insights that can help with clinical-decision making, process improvements, and resource allocation. It can help with productivity, patient outcomes, and patient care. Due to the vast health data that will be stored and analyzed, it must be secured. Blockchain can provide privacy, safety, and security of the health data. Healthcare analytics is the process of collecting, aggregating, and analyzing healthcare data to extract insights and support decision-making in the healthcare industry.</p>
+                <p><span>Healthcare analytics is an advanced analytics tool that uses healthcare data in order to identify patterns or insights that can help with clinical-decision making, process improvements, and resource allocation.</span> It can help with productivity, patient outcomes, and patient care. Due to the vast health data that will be stored and analyzed, it must be secured. <span>Blockchain can provide privacy, safety, and security of the health data.</span> Healthcare analytics is the process of collecting, aggregating, and analyzing healthcare data to extract insights and support decision-making in the healthcare industry.</p>
                 
                 <div className="image-container-2" data-aos="fade-in">
                     <h1 className="image-2"></h1>

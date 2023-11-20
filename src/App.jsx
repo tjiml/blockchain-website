@@ -6,6 +6,7 @@ import Product from "./pages/Product";
 import Support from "./pages/Support";
 import Pricing from "./pages/Pricing";
 import Footer from "./components/Footer";
+import Features from "./pages/Features";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/product" element={<Product />}/>
           <Route path="/support" element={<Support />}/>
           <Route path="/pricing" element={<Pricing />}/>
+          <Route path="/features" element={<Features />}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

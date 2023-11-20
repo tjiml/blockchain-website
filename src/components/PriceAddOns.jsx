@@ -25,7 +25,7 @@ export default function PriceAddOns() {
 
                 <div className="add-on-3-card">
                     <i className="bi bi-archive"></i>
-                    <h1>Large Fil Storage</h1>
+                    <h1>Large File Storage</h1>
                     <p>$5/month for 50 GB bandwidth and 50 GB for storage</p>
                 </div>
 
