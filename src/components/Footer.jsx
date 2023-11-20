@@ -1,11 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
-
-    useEffect(() => {
-        window.scrollTo({top: 0, left: 0, behavior: 'auto'});
-      }, []);
 
     return (
         <>
@@ -16,48 +12,23 @@ export default function Footer() {
                 <ul>
 
                     <Link to="/" 
-                        className="footer-links"
-                        onClick={() => {
-                            window.scrollTo({
-                                top: 0, 
-                                behavior: auto})
-                        }}><li>Home</li>
+                        className="footer-links"><li>Home</li>
                         </Link>
 
                         <Link to="/product" 
-                        className="footer-links"
-                        onClick={() => {
-                            window.scrollTo({
-                                top: 0, 
-                                behavior: auto})
-                        }}><li>Product</li>
+                        className="footer-links"><li>Product</li>
                         </Link>
 
                         <Link to="/support" 
-                        className="footer-links"
-                        onClick={() => {
-                            window.scrollTo({
-                                top: 0, 
-                                behavior: auto})
-                        }}><li>Support</li>
+                        className="footer-links"><li>Support</li>
                         </Link>
 
                         <Link to="/pricing" 
-                        className="footer-links"
-                        onClick={() => {
-                            window.scrollTo({
-                                top: 0, 
-                                behavior: auto})
-                        }}><li>Pricing</li>
+                        className="footer-links"><li>Pricing</li>
                         </Link>
 
                         <Link to="/features" 
-                        className="footer-links"
-                        onClick={() => {
-                            window.scrollTo({
-                                top: 0, 
-                                behavior: auto})
-                        }}><li>Features</li>
+                        className="footer-links"><li>Features</li>
                         </Link>
 
         
