@@ -11,7 +11,13 @@ export default function Footer() {
             
                 <ul>
 
-                    <Link to="/" 
+                    <Link to="/" className="footer-links"><li>Home</li></Link>
+                    <Link to="/product" className="footer-links"><li>Product</li></Link>
+                    <Link to="/support" className="footer-links"><li>Support</li></Link>
+                    <Link to="/pricing" className="footer-links"><li>Pricing</li></Link>
+                    <Link to="/features" className="footer-links"><li>Features</li></Link>
+
+                    {/* <Link to="/" 
                         className="footer-links"
                         onClick={() => {
                             window.scroll({
@@ -54,7 +60,7 @@ export default function Footer() {
                                 top: 0, 
                                 behavior: auto})
                         }}><li>Features</li>
-                        </Link>
+                        </Link> */}
 
         
                 </ul>

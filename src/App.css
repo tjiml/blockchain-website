@@ -56,8 +56,7 @@
 }
 
 @media screen and (max-width: 963px) {
-  .nav-menu,
-  .nav-menu-2
+  .nav-menu
   {
     display: flex;
     flex-direction: column;
@@ -77,8 +76,7 @@
     cursor: pointer;
   }
 
-  .nav-menu.active,
-  .nav-menu-2.active
+  .nav-menu.active
   {
     left: 0;
     top: 0;
@@ -88,30 +86,17 @@
     z-index: 1;
   }
   
-  .links,
-  .links-2
+  .links
   {
     color: white;
   }
 
   .menu-icon {
-    color: white;
-    display: inline;
-    font-size: 38px;
-    padding: 0 10px;
-  }
-
-  .menu-icon-2 {
     color: black;
     display: inline;
     font-size: 38px;
     padding: 0 10px;
   }
-
-  .links-2::after {
-    background-color: white;
-  }
-
 }
 
 /* home css---------------------------------*/
