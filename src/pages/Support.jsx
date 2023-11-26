@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import References from "../components/References";
+import ScrollTopButton from "../components/ScrollTopButton"
 import AOS from "aos";
 import 'aos/dist/aos.css';
 
@@ -213,6 +214,8 @@ export default function Support() {
             <>
             </>
         )}
+
+        <ScrollTopButton />
         </>
     )
 }

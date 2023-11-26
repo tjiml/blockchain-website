@@ -1,15 +1,60 @@
+.back-to-top-button {
+  position: fixed;
+  bottom: 100px;
+  font-family: dm sans;
+  right: 20px;
+  width: 165px;
+  font-size: 15px;
+  border: none;
+  color: white;
+  background-color: black;
+  padding: 10px 15px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 963px) {
+
+  .back-to-top-button {
+    font-size: 10px;
+    padding: 5px 10px;
+    width: 120px;
+  }
+  
+}
+
 /* navbar css---------------------------------*/
 .nav-container {
-  height: 50px;
+  top: 0;
+  height: 70px;
+  background-color: black;
+}
+
+.business-name h1 {
+  background-image: url(images/ktn-logo.png);
+  background-size: cover;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 5px;
+  right: 50px;
+}
+
+.business-name p {
+  color: white;
+  position: absolute;
+  top:20px;
+  right: 130px;
+  font-size: 25px;
+  font-family: chivo;
 }
 
 
 .links {
   margin: 10px 15px;
-  color: black;
+  color: white;
   transition: all 0.5s ease;
   display: inline-block;
-  position: relative;
+  position: relative
 }
 
 .links:hover {
@@ -25,7 +70,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: black;
+  background-color: white;
   transform-origin: bottom right;
   transition: transform 0.5s ease-out;
 }
@@ -56,6 +101,11 @@
 }
 
 @media screen and (max-width: 963px) {
+
+  .nav-container {
+    height: 60px;
+  }
+
   .nav-menu
   {
     display: flex;
@@ -92,11 +142,41 @@
   }
 
   .menu-icon {
-    color: black;
+    color: white;
     display: inline;
     font-size: 38px;
-    padding: 0 10px;
+    padding-left: 20px;
   }
+}
+
+@media screen and (max-width: 746px) {
+
+  .business-name h1 {
+    height: 48px;
+    width: 48px;
+  }
+
+  .business-name p {
+    font-size: 20px;
+    top: 16px;
+  }
+
+}
+
+@media screen and (max-width: 430px) {
+
+  .business-name h1 {
+    height: 40px;
+    width: 40px;
+    right: 20px;
+  }
+
+  .business-name p {
+    font-size: 16px;
+    top: 16px;
+    right: 70px;
+  }
+
 }
 
 /* home css---------------------------------*/
@@ -415,8 +495,8 @@
 
   .image-5,
   .image-6 {
-    width: 220px;
-    height: 200px;
+    width: 200px;
+    height: 160px;
   }
 
   .data-container {
@@ -1139,6 +1219,10 @@
   font-family: poppins;
 }
 
+.ref-container a {
+  font-size: 30px;
+}
+
 
 @media screen and (max-width: 963px) {
 
@@ -1194,6 +1278,10 @@
 
   .ref-container p {
     font-size: 10px;
+  }
+
+  .ref-container a {
+    font-size: 15px;
   }
 
 }

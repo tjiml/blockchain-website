@@ -51,6 +51,11 @@ export default function Navbar() {
                     </Link>
 
                 </ul>
+
+                <div className="business-name">
+                    <p>KTN TECH</p>
+                    <h1></h1>
+                </div>
             </div>
         </div>
 

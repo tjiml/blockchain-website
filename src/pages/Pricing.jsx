@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
-import PriceAddOns from "../components/PriceAddOns";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 
@@ -119,8 +118,6 @@ export default function Pricing() {
 
             </div>
             )}
-
-        <PriceAddOns />
 
         </div>
         </>
