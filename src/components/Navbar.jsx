@@ -52,10 +52,10 @@ export default function Navbar() {
 
                 </ul>
 
-                <div className="business-name">
+                <Link to="/"><div className="business-name">
                     <p>KTN TECH</p>
                     <h1></h1>
-                </div>
+                </div></Link>
             </div>
         </div>
 

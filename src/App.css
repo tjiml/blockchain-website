@@ -440,7 +440,7 @@
 
   .container-2 p
   {
-    font-size: 16px;
+    font-size: 10px;
     width: 90%;
     padding-left: 60px;
   }
@@ -457,7 +457,7 @@
   .container-8 p
   {
     padding-left: 30px;
-    font-size: 16px;
+    font-size: 10px;
     width: 90%;
   }
 
@@ -509,6 +509,11 @@
   .cards-1,
   .cards-2 {
     width: 80%;
+  }
+
+  .cards-1 p,
+  .cards-2 p {
+    font-size: 10px;
   }
 
   .image-ref {
@@ -651,7 +656,8 @@
   .container-7 p,
   .container-9 p
   {
-    font-size: 15px;
+    font-size: 10px;
+    width: 100%;
   }
 
   .container-9 {
