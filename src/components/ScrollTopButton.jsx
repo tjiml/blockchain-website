@@ -24,7 +24,7 @@ export default function ScrollTop() {
     return (
         <>
         {backToTop && (
-                    <button className="back-to-top-button" onClick={scrollUp}><i className="bi bi-arrow-up-short"></i></button>
+                    <button className="back-to-top-button" onClick={scrollUp}><i className="bi bi-arrow-up-circle"></i></button>
                 )}
         </>
     )

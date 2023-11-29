@@ -2,22 +2,20 @@
   position: fixed;
   bottom: 100px;
   font-family: dm sans;
-  right: 40px;
-  width: 65px;
-  font-size: 40px;
+  right: 50px;
+  font-size: 50px;
+  background-color: transparent;
   border: none;
-  color: white;
-  border-radius: 50%;
-  background-color: black;
+  color: gray;
 }
 
 @media screen and (max-width: 430px) {
   .back-to-top-button {
-    font-size: 20px;
-    width: 30px;
-    right: 30px;
+    right: 20px;
+    font-size: 30px;
   }
 }
+
 
 /* navbar css---------------------------------*/
 .nav-container {
