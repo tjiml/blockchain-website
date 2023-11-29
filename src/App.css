@@ -11,6 +11,13 @@
   background-color: black;
 }
 
+@media screen and (max-width: 746px) {
+  .back-to-top-button {
+    font-size: 30px;
+    width: 50px;
+  }
+}
+
 /* navbar css---------------------------------*/
 .nav-container {
   top: 0;
