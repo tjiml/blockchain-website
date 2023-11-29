@@ -43,10 +43,6 @@ export default function ProductContent() {
             <p>Blockchain can provide a secure and immutable system for managing electronic health records (EHRs). <span>Blockchain can help with enhancing security of the medical data that is being stored and being analyzed to find patterns or insights for healthcare analytics.</span> It cannot be easily hacked or unauthorized access due to its encryption. Health data security is a top priority for the safety of patients and in order to implement healthcare analytics, high data security also needs to be implemented and prioritized. <span>Both blockchain technology and healthcare analytics will help with patient care outcomes and may alleviate certain healthcare challenges.</span></p>
         </section>
 
-        <section className="container-9" data-aos="fade-up">
-            <h2>Our Product</h2>
-            <p>Our technology seamlessly integrates with electronic health records systems, providing a robust solution for securely sharing and storing medical information. Blockchain will elevate the safeguard of shared data among various providers, the patient, and third-party entities. By leveraging blockchain technology, we enhance security measures, ensuring that only authorized users have access to specific medical data. This not only increases the protection of patient information, such as name, birthdate, addresses, insurance information, SSN, and credit card data, but also safeguards sensitive hospital or clinic information, including human resources data, workflow management, resource allocation, and research and clinical data. The incorporation of healthcare analytics, encompassing both clinical and operational aspects, further enhances the efficacy of our solution. Utilizing blockchain technology, we secure the stored data, ensuring the integrity and privacy required for healthcare data analytics. This comprehensive approach not only addresses security concerns, but also lays the foundation for an advanced and streamlined healthcare information management system.</p>
-        </section>
     </div>
     </>
     )

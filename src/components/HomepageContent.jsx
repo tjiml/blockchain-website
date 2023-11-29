@@ -14,7 +14,7 @@ export default function HomepageContent() {
         <div className="content-container">
 
             <div className="container-1" data-aos="fade-up">
-                <h1>Blockchain</h1>
+                <h1>Blockchain Technology</h1>
                 <ul>
                     <li className="list-inline-item"><i className="bi bi-bar-chart"></i></li>
                     <li className="list-inline-item"><i className="bi bi-hospital"></i></li>

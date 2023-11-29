@@ -27,11 +27,14 @@ export default function Footer() {
                         className="footer-links"><li>Pricing</li>
                         </Link>
 
+                        <Link to="/aboutus" 
+                        className="footer-links"><li>About Us</li>
+                        </Link>
+
                         <Link to="/features" 
                         className="footer-links"><li>Features</li>
                         </Link>
-
-        
+                        
                 </ul>
 
             </div>

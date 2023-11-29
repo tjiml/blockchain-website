@@ -2,24 +2,13 @@
   position: fixed;
   bottom: 100px;
   font-family: dm sans;
-  right: 20px;
-  width: 165px;
-  font-size: 15px;
+  right: 40px;
+  width: 65px;
+  font-size: 40px;
   border: none;
   color: white;
+  border-radius: 50%;
   background-color: black;
-  padding: 10px 15px;
-  letter-spacing: 1px;
-}
-
-@media screen and (max-width: 963px) {
-
-  .back-to-top-button {
-    font-size: 10px;
-    padding: 5px 10px;
-    width: 120px;
-  }
-  
 }
 
 /* navbar css---------------------------------*/
@@ -197,11 +186,10 @@
 }
 
 .container-1 h1 {
-  font-family: Staatliches;
-  letter-spacing: 2px;
+  font-family: dm sans;
   font-size: 75px;
   text-transform: capitalize;
-  font-weight: light;
+  font-weight: bolder;
 }
 
 .container-1 p {
@@ -224,7 +212,6 @@
 }
 
 .container-1 li:hover {
-  color: lightslategray;
   transform: scale(1.2);
 }
 
@@ -238,13 +225,12 @@
 }
 
 .container-2 h1 {
-  color: lightslategray;
-  letter-spacing: 2px;
   font-size: 70px;
   text-transform: capitalize;
   font-weight: light;
-  font-family: Staatliches;
+  font-family: dm sans;
   padding-left: 60px;
+  font-weight: bolder;
 }
 
 .container-2 p {
@@ -261,8 +247,10 @@
 .container-8 h1
 {
   padding-left: 60px;
-  text-transform: uppercase;
-  font-family: staatliches;
+  text-transform: capitalize;
+  font-family: dm sans;
+  font-weight: bolder;
+  font-size: 75px;
 }
 
 .container-3 p,
@@ -351,7 +339,9 @@
 }
 
 .container-5 h1 {
-  font-family: staatliches;
+  font-family: dm sans;
+  font-weight: bolder;
+  font-size: 75px;
 }
 
 .data-container {
@@ -373,7 +363,7 @@
 }
 
 .data-container span {
-  color: skyblue;
+  color: lightslategray;
   font-weight: bolder;
 }
 
@@ -383,15 +373,19 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: transparent;
   color: black;
   width: 35%;
   border-radius: 10px;
   margin: 20px;
   padding: 30px;
   transition: all 0.5s ease;
-  border: 1px solid black;
+  box-shadow: 0 0 10px lightgray;
   height: 600px;
+}
+
+.cards-1 h1, 
+.cards-2 h1 {
+  font-size: 30px;
 }
 
 .cards-1:hover,
@@ -419,7 +413,7 @@
 
   .container-1 h1
   {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .container-1 p
@@ -429,12 +423,12 @@
   }
 
   .container-1 li {
-    font-size: 40px;
+    font-size: 30px;
     margin: 0 10px;
   }
 
   .container-2 h1 {
-    font-size: 40px;
+    font-size: 30px;
     padding-left: 60px;
   }
 
@@ -447,9 +441,11 @@
 
   .container-3 h1,
   .container-4 h1,
+  .container-5 h1,
   .container-8 h1
   {
     padding-left: 30px;
+    font-size: 30px;
   }
 
   .container-3 p,
@@ -511,6 +507,11 @@
     width: 80%;
   }
 
+  .cards-1 h1,
+  .cards-2 h1 {
+    font-size: 20px;
+  }
+
   .cards-1 p,
   .cards-2 p {
     font-size: 10px;
@@ -554,12 +555,10 @@
 }
 
 .container-6 h1 {
-  font-family: Staatliches;
-  letter-spacing: 2px;
+  font-family: dm sans;
   font-size: 75px;
   text-transform: capitalize;
-  color: lightslategray;
-  font-weight: light;
+  font-weight: bolder;
 }
 
 .container-6 p,
@@ -588,17 +587,10 @@
 .container-7 h1,
 .container-9 h1
 {
-  font-family: Staatliches;
-  letter-spacing: 2px;
+  font-family: dm sans;
   font-size: 75px;
   text-transform: capitalize;
-  color: rgb(33, 33, 33);
-  font-weight: light;
-}
-
-.container-9 h2 {
-  font-size: 100px;
-  font-family: staatliches;
+  font-weight: bolder;
 }
 
 .container-7 span {
@@ -646,8 +638,7 @@
 
   .container-6 h1,
   .container-7 h1,
-  .container-9 h1,
-  .container-9 h2
+  .container-9 h1
   {
     font-size: 30px;
   }
@@ -717,14 +708,14 @@
   border-radius: 10px;
   padding: 10px;
   border: 1px solid darkgray;
-  background-color: rgb(236, 236, 236);
+  /* background-color: rgb(236, 236, 236); */
 }
 
 .yearly-button {
   border: 1px solid black;
   background-color: red;
   
-  background-image: linear-gradient(45deg, purple, red);
+  background-image: linear-gradient(10deg, red, yellow);
   
   background-size: 100%;
   background-repeat: repeat;
@@ -737,13 +728,13 @@
 
 .monthly-button,
 .yearly-button {
-  background-color: transparent;
   padding: 5px 15px;
   border-radius: 10px;
 }
 
 .monthly-button {
   border: none;
+  background-color: transparent;
 }
 
 .buttons button:hover {
@@ -757,15 +748,18 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: none;
   width: 450px;
   border-radius: 10px;
   transition: all 0.5s ease;
-  margin: 0 10px;
+  margin: 0 20px;
   padding: 20px 0;
-  /* background-color: rgb(236, 236, 236); */
   box-shadow: 0 0 10px lightgray;
   height: 510px;
+}
+
+.card-1:hover,
+.card-2:hover {
+  box-shadow: 0 0 10px gray;
 }
 
 
@@ -1442,6 +1436,219 @@
   .dropdown-2,
   .dropdown-3 {
     font-size: 15px;
+  }
+}
+
+
+
+
+
+
+
+/* about us css */
+
+.about-us-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.about-us-title h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: dm sans;
+  padding: 100px 0 40px 0;
+}
+
+.about-us-title p {
+  font-family: dm sans;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.our-product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.card-3 {
+  width: 40%;
+  padding: 50px;
+  height: 730px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px lightgray;
+  margin-right: 50px;
+}
+
+.card-3 h2 {
+  font-size: 140px;
+  padding: 50px 0 0 50px;
+  color: red;
+  background-image: linear-gradient(0deg, yellow, red);
+  
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.card-4 {
+  width: 40%;
+  padding: 50px;
+  height: 730px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px lightgray;
+}
+
+.card-3 h1 {
+  font-size: 70px;
+  color: red;
+  letter-spacing: -2px;
+  background-image: linear-gradient(10deg, red, yellow);
+  
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-family: dm sans;
+}
+
+.card-4 h1 {
+  font-size: 70px;
+  font-family: dm sans;
+  letter-spacing: -2px;
+}
+
+.card-3 p,
+.card-4 p
+{
+  font-family: poppins;
+  font-size: 18px;
+}
+
+.container-11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.card-5 {
+  width: 40%;
+  box-shadow: 0 0 10px lightgray;
+  padding: 50px;
+  margin-right: 50px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.card-5 h1 {
+  font-family: dm sans;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.card-5 p {
+  font-family: poppins;
+}
+
+.card-6 {
+  width: 40%;
+  height: 500px;
+}
+
+.card-6 a {
+  text-decoration: none;
+  color: black;
+  font-family: dm sans;
+  font-size: 30px;
+  transition: all 0.5s ease;
+}
+
+.card-6 a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.video {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 746px) {
+
+  .about-us-title h1 {
+    font-size: 30px;
+  }
+
+  .our-product-container {
+    flex-direction: column;
+  }
+
+  .card-3, 
+  .card-4 {
+    width: 70%;
+    height: auto;
+    margin: 0 0 20px 0;
+    padding: 20px;
+  }
+
+  .card-3 h2 {
+    font-size: 70px;
+  }
+
+  .card-3 h1,
+  .card-4 h1 {
+    font-size: 25px;
+  }
+
+  .card-3 p,
+  .card-4 p {
+    font-size: 10px;
+  }
+
+  .container-11 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .card-5,
+  .card-6
+  {
+   margin: 0;
+   width: 70%;
+   padding: 20px;
+  }
+
+  .card-5 {
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .card-5 h1 {
+    font-size: 20px;
+  }
+
+  .card-5 p {
+    font-size: 10px;
+  }
+
+  .card-6 a {
+    font-size: 20px;
+  }
+
+  .video {
+    width: 100%;
+    height: 200px;
   }
 }
 

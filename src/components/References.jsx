@@ -47,6 +47,14 @@ export default function References() {
                 <a href="https://doi.org/10.1155/2022/3727389" target="_blank"><i className="bi bi-link"></i></a>
             </p>
 
+            <p>Technology. BurstIQ. (2023).
+                <a href="https://burstiq.com/technology/" target="_blank"><i className="bi bi-link"></i></a>
+            </p> 
+
+            <p>The Most Advanced Health Blockchain Network on the Planet. (2021). YouTube. Retrieved November 28, 2023, from 
+                <a href="https://www.youtube.com/watch?v=WZdvmb43Fzw" target="_blank"><i className="bi bi-link"></i></a>
+            </p>
+
             <a href="https://www.canva.com/design/DAFyZ4GRmOY/NPvuElDzCDUAaLngjJw-bw/view?utm_content=DAFyZ4GRmOY&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><p>Images created by Canva <i className="bi bi-link"></i></p></a>
 
         </div>

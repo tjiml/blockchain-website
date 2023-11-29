@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "../components/Navbar";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 
@@ -28,11 +27,10 @@ export default function Pricing() {
 
     return (
         <>
-        <Navbar />
         <div className="pricing-container">
 
             <div className="pricing-title">
-                <h1 className="text-center">Get the complete platform.</h1>
+                <h1 className="text-center">Get the complete platform</h1>
                 <p>How Often Do You Want To Pay?</p>
                 <div className="buttons">
                     <button onClick={monthlyPrice} className="monthly-button">Monthly</button>

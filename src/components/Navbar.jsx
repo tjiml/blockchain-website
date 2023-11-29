@@ -50,6 +50,12 @@ export default function Navbar() {
                         </li>
                     </Link>
 
+                    <Link to="/aboutus">
+                        <li className="links list-inline-item" onClick={closeMobileMenu}>
+                            About Us
+                        </li>
+                    </Link>
+
                 </ul>
 
                 <Link to="/"><div className="business-name">

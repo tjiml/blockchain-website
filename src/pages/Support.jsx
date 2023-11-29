@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "../components/Navbar";
 import References from "../components/References";
 import ScrollTopButton from "../components/ScrollTopButton"
 import AOS from "aos";
@@ -100,7 +99,6 @@ export default function Support() {
     return (
         <>
         <div className="support-container">
-        <Navbar />
 
             <div className="contact-us-title text-center">
                 <h1>Contact Us</h1>
